@@ -1,7 +1,7 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .noto-serif {
@@ -12,383 +12,379 @@
   font-family: "Inter", sans-serif;
 }
 
-
 /** navbar **/
 .nav-bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 1140px;
-    padding: 30px 0;
-    margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1140px;
+  padding: 30px 0;
+  margin: auto;
 }
 
 .nav-bar .logo img {
-    width: 135px;
-    height: 82px;
+  width: 135px;
+  height: 82px;
 }
 
 .nav-bar .nav-links {
-    display: flex;
-    gap: 48px;
+  display: flex;
+  gap: 48px;
 }
 
 .nav-bar .nav-links a {
-    text-decoration: none;
-    font-weight: 500;
-    color: #8987A1;
+  text-decoration: none;
+  font-weight: 500;
+  color: #8987a1;
 }
 
 .nav-bar .nav-links a:first-child {
-    color: #252432;
-    font-weight: 500;
+  color: #252432;
+  font-weight: 500;
 }
 
 .nav-bar .nav-links a:last-child {
-    color: #000000;
-} 
-
+  color: #000000;
+}
 
 /** hero section **/
 .hero-section {
-    max-width: 1140px;
-    height: 456px;
-    display: flex;
-    align-items: flex-end;
-    margin: 100px auto 0;
+  max-width: 1140px;
+  height: 456px;
+  display: flex;
+  align-items: flex-end;
+  margin: 100px auto 0;
 }
 
 .hero-left {
-    width: 50%;
+  width: 50%;
 }
 
 .hero-left h1 {
-    font-size: 65px;
-    font-weight: 700;
-    color: #E95A08;
+  font-size: 65px;
+  font-weight: 700;
+  color: #e95a08;
 }
 
 .hero-left h1 span {
-    color: #000000;
+  color: #000000;
 }
 
 .hero-left p {
-    font-size: 22px;
-    padding-top: 20px;
-    padding-right: 15px;
+  font-size: 22px;
+  padding-top: 20px;
+  padding-right: 15px;
 }
 
 .hero-right img {
-    display: block;
+  display: block;
 }
-
-
 
 /** plant section **/
 .plant-section {
-    margin: 120px auto 0;
-    width: 1140px;
-    height: auto;
+  margin: 120px auto 0;
+  width: 1140px;
+  height: auto;
 }
 
 .plant-section h2 {
-    font-size: 50px;
-    font-weight: 700;
-    text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
 }
 
 .plant-section h2 span {
-    color: #E95A08;
+  color: #e95a08;
 }
 
 .plant-section > p {
-    font-size: 22px;
-    padding: 16px 138px 49px;
-    text-align: center;
+  font-size: 22px;
+  padding: 16px 138px 49px;
+  text-align: center;
 }
 
 .all-products {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 20px;
-    row-gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+  row-gap: 30px;
 }
 
 .all-products .product-card {
-    width: 270px;
-    height: auto;
+  width: 270px;
+  height: auto;
 }
 
 .product-card img {
-    width: 100%;
-    height: 322px;
+  width: 100%;
+  height: 322px;
 }
 
 .product-details p {
-    text-align: center;
-    font-size: 22px;
-    margin: 30px 0 20px;
+  text-align: center;
+  font-size: 22px;
+  margin: 30px 0 20px;
 }
 
 .product-details h3 {
-    text-align: center;
-    font-size: 22px;
-    font-weight: 700;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
 }
 
 .product-details button {
-    width: 100%;
-    padding: 18px 0;
-    margin-top: 30px;
-    background-color: #E95A08;
-    color: #ffffff;
-    border: none;
-    cursor: pointer;
+  width: 100%;
+  padding: 18px 0;
+  margin-top: 30px;
+  background-color: #e95a08;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
 }
 
 .product-details button:hover {
-    background-color: #f17019fd;
+  background-color: #f17019fd;
 }
-
 
 /** plant-lover-section **/
 .plant-lover-section {
-    width: 1140px;
-    height: 597px;
-    margin: 210px auto 0;
-    display: flex;
-    align-items: center;
-    gap: 60px;
-    position: relative;
+  width: 1140px;
+  height: 597px;
+  margin: 210px auto 0;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  position: relative;
 }
 
 .plant-lover-bg-image {
-    background-image: url(./assets/flower-store.png);
-    background-size: cover;
-    background-position: center;
-    width: 540px;
-    height: 100%;
+  background-image: url(./assets/flower-store.png);
+  background-size: cover;
+  background-position: center;
+  width: 540px;
+  height: 100%;
 }
 
 .title-list {
-    width: 540px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .title-list h2 {
-    font-size: 56px;
-    font-weight: 700;
+  font-size: 56px;
+  font-weight: 700;
 }
 
 .title-list ul {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 20px;
 }
 
 .title-list ul li {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 .plant-lover-section .trusted-badge img {
-    width: 286px;
-    height: 286px;
-    position: absolute;
-    left: 347px;
-    bottom: 438px;
-    animation: spin 6s linear infinite;
+  width: 286px;
+  height: 286px;
+  position: absolute;
+  left: 347px;
+  bottom: 438px;
+  animation: spin 6s linear infinite;
 }
 
 @keyframes spin {
-    0% {
-        transform: rotate(0deg);
-    } 
-    100% {
-        transform: rotate(360deg);
-    }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
-
 
 /** deal section **/
 .deal-section {
-    width: 1140px;
-    height: auto;
-    margin: 133px auto 0;
+  width: 1140px;
+  height: auto;
+  margin: 133px auto 0;
 }
 
 .deal-section h2 {
-    font-size: 50px;
-    font-weight: 700;
-    text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
 }
 
 .deal-section h2 span {
-    color: #E95A08;
+  color: #e95a08;
 }
 
 .deal-section p {
-    font-size: 22px;
-    padding: 16px 173px 49px;
-    text-align: center;
+  font-size: 22px;
+  padding: 16px 173px 49px;
+  text-align: center;
 }
 
 .discount-part {
-    display: flex;
-    column-gap: 28px;
-    margin-bottom: 120px;
+  display: flex;
+  column-gap: 28px;
+  margin-bottom: 120px;
 }
 
 .left-part {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .left-part .item1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(./assets/deal-bloom.png);
-    width: 367px;
-    height: 201px;
-    border-radius: 14px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url(./assets/deal-bloom.png);
+  width: 367px;
+  height: 201px;
+  border-radius: 14px;
 }
 
 .left-part .item2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(./assets/deal-ana.png);
-    width: 367px;
-    height: 201px;
-    border-radius: 14px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url(./assets/deal-ana.png);
+  width: 367px;
+  height: 201px;
+  border-radius: 14px;
 }
 
 .right-part .item3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(./assets/deal-zabo.png);
-    width: 753px;
-    height: 423px;
-    border-radius: 14px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url(./assets/deal-zabo.png);
+  width: 753px;
+  height: 423px;
+  border-radius: 14px;
 }
 
 .item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .item span {
-    font-size: 22px;
-    font-weight: 700;
-    color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+  color: #ffffff;
 }
 
 .item a {
-    color: #ffffff;
-    text-underline-offset: 4px;
-    margin-top: 19px;
+  color: #ffffff;
+  text-underline-offset: 4px;
+  margin-top: 19px;
 }
 
 .item3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .item3 span {
-    font-size: 40px;
-    font-weight: 700;
-    color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
 }
 
 .item3 a {
-    font-size: 28px;
-    font-weight: 600;
-    color: #ffffff;
-    text-underline-offset: 8px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #ffffff;
+  text-underline-offset: 8px;
 }
-
 
 /** join section **/
 .join-section {
-    background-image: url(./assets/news-letter-bg.png);
-    width: 1440px;
-    height: 533px;
-    background-size: cover;
-    background-position: center;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  background-image: url(./assets/news-letter-bg.png);
+  width: 1440px;
+  height: 533px;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .join-section h2 {
-    font-size: 50px;
-    font-weight: 700;
-    color: #ffffff;
-    margin-bottom: 23px;
+  font-size: 50px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 23px;
 }
 
 .join-section .input-box {
-    display: flex;
+  display: flex;
 }
 
 .join-section .input-box input {
-    width: 560px;
-    padding: 16px 0 16px 20px;
-    border: none;
-    outline: none;
+  width: 560px;
+  padding: 16px 0 16px 20px;
+  border: none;
+  outline: none;
 }
 
 .join-section .input-box button {
-    padding: 16px 53px;
-    border: none;
-    background-color: #E95A08;
-    color: #ffffff;
+  padding: 16px 53px;
+  border: none;
+  background-color: #e95a08;
+  color: #ffffff;
 }
 
 /** footer **/
 footer {
-    width: 1440px;
-    height: auto;
-    padding: 50px 160px;
-    display: flex;
-    gap: 110px;
-    margin: auto;
+  width: 1440px;
+  height: auto;
+  padding: 50px 160px;
+  display: flex;
+  gap: 110px;
+  margin: auto;
 }
 
 .foot-desc {
-    max-width: 359px;
+  max-width: 359px;
 }
 
 .foot-desc p {
-    font-size: 22px;
-    color: rgb(94, 94, 94);
-    margin-top: 16px;
+  font-size: 22px;
+  color: rgb(94, 94, 94);
+  margin-top: 16px;
 }
 
 .foot-desc img {
-    width: 135px;
-    height: 82px;
+  width: 135px;
+  height: 82px;
 }
 
 .foot-nav-links {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
 .foot-nav-links a {
-    text-decoration: none;
-    color: gray;
+  text-decoration: none;
+  color: gray;
 }
 
 .foot-nav-icons {
-    display: flex;
-    gap: 24px;
+  display: flex;
+  gap: 24px;
 }
 
 .foot-nav-icons img {
-    width: 36px;
-    height: 36px;
+  width: 36px;
+  height: 36px;
 }
