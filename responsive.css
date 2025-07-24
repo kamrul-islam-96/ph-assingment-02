@@ -65,11 +65,13 @@
 
   .all-products {
     grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    justify-content: space-between;
     padding: 0px 14px;
   }
 
   .all-products .product-card {
-    max-width: 163px;
+    max-width: 160px;
     height: auto;
   }
 
