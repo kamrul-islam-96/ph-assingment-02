@@ -201,23 +201,23 @@
 
 
 /** join section **/
-.join-section {
+.deal-section {
     width: 1140px;
     height: auto;
     margin: 133px auto 0;
 }
 
-.join-section h2 {
+.deal-section h2 {
     font-size: 50px;
     font-weight: 700;
     text-align: center;
 }
 
-.join-section h2 span {
+.deal-section h2 span {
     color: #E95A08;
 }
 
-.join-section p {
+.deal-section p {
     font-size: 22px;
     padding: 16px 173px 49px;
     text-align: center;
