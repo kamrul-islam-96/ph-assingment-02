@@ -145,3 +145,54 @@
 .product-details button:hover {
     background-color: #f17019fd;
 }
+
+
+/** plant-lover-section **/
+.plant-lover-section {
+    width: 1140px;
+    height: 597px;
+    margin: 210px auto 0;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    position: relative;
+}
+
+.plant-lover-bg-image {
+    background-image: url(./assets/flower-store.png);
+    background-size: cover;
+    background-position: center;
+    width: 540px;
+    height: 100%;
+}
+
+.title-list {
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title-list h2 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.title-list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.title-list ul li {
+    font-size: 22px;
+}
+
+.plant-lover-section .trusted-badge img {
+    width: 286px;
+    height: 286px;
+    position: absolute;
+    left: 347px;
+    bottom: 438px;
+}
