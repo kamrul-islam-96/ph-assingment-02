@@ -334,3 +334,49 @@
     background-color: #E95A08;
     color: #ffffff;
 }
+
+/** footer **/
+footer {
+    width: 1440px;
+    height: auto;
+    padding: 50px 160px;
+    display: flex;
+    gap: 110px;
+    margin: auto;
+}
+
+.foot-desc {
+    max-width: 359px;
+}
+
+.foot-desc p {
+    font-size: 22px;
+    color: rgb(94, 94, 94);
+    margin-top: 16px;
+}
+
+.foot-desc img {
+    width: 135px;
+    height: 82px;
+}
+
+.foot-nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.foot-nav-links a {
+    text-decoration: none;
+    color: gray;
+}
+
+.foot-nav-icons {
+    display: flex;
+    gap: 24px;
+}
+
+.foot-nav-icons img {
+    width: 36px;
+    height: 36px;
+}
