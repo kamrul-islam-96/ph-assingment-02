@@ -64,14 +64,12 @@
   }
 
   .all-products {
-    display: grid;
-    justify-content: space-between;
     grid-template-columns: repeat(2, 1fr);
     padding: 0px 14px;
   }
 
   .all-products .product-card {
-    width: 163px;
+    max-width: 163px;
     height: auto;
   }
 
