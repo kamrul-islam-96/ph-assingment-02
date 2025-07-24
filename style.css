@@ -18,7 +18,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 105px 0;
+    width: 1140px;
+    padding: 30px 0;
+    margin: auto;
 }
 
 .nav-bar .logo img {
@@ -99,7 +101,7 @@
 
 .plant-section > p {
     font-size: 22px;
-    padding: 16px 126px 49px;
+    padding: 16px 138px 49px;
     text-align: center;
 }
 
@@ -195,4 +197,45 @@
     position: absolute;
     left: 347px;
     bottom: 438px;
+}
+
+
+/** join section **/
+.join-section {
+    width: 1140px;
+    height: auto;
+    margin: 133px auto 0;
+}
+
+.join-section h2 {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.join-section h2 span {
+    color: #E95A08;
+}
+
+.join-section p {
+    font-size: 22px;
+    padding: 16px 173px 49px;
+    text-align: center;
+}
+
+.discount-part {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 28px;
+    margin-bottom: 120px;
+}
+
+.discount-part img {
+    border-radius: 14px;
+}
+
+.left-part {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
