@@ -200,7 +200,7 @@
 }
 
 
-/** join section **/
+/** deal section **/
 .deal-section {
     width: 1140px;
     height: auto;
@@ -293,4 +293,44 @@
     font-weight: 600;
     color: #ffffff;
     text-underline-offset: 8px;
+}
+
+
+/** join section **/
+.join-section {
+    background-image: url(./assets/news-letter-bg.png);
+    width: 1440px;
+    height: 533px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.join-section h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 23px;
+}
+
+.join-section .input-box {
+    display: flex;
+}
+
+.join-section .input-box input {
+    width: 560px;
+    padding: 16px 0 16px 20px;
+    border: none;
+    outline: none;
+}
+
+.join-section .input-box button {
+    padding: 16px 53px;
+    border: none;
+    background-color: #E95A08;
+    color: #ffffff;
 }
